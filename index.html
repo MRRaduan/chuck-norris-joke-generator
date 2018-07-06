@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chuck Norris Joke Generator</title>
+  <!-- Sleketon css -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"> -->
+
+  <link rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Playfair+Display:400i" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__card">
+      <h2 class="header__title header__title--sub">
+        <span>  KEEP YOURSELF READY!! </span><br>
+        <span> 'CAUSE THIS IS</span>
+      </h2>
+      <h1 class="header__title">
+        Chuck Norris joke generator
+      </h1>
+    </div>
+    <figure class="header__figure">
+      <img src="chuck-norris-explosion.png" alt="" class="header__figure__img">
+    </figure>
+    <span class="header__joke">
+      "Chuck Norris threw a grenade and killed 50 people, then it exploded."
+    </span>
+  </header>
+  <main class="main">
+    <div class="stepsWrapper">
+      <p class="f1 steps__title"> JUST TWO STEPS! </p>
+    </div>
+    <form>
+      <div class="step--one">
+        <label for="number" class="step  f1">FIRST! <br> PUT THE NUMBER OF JOKES</label>
+        <input class="input" placeholder="nº of jokes" type="number" id="number">
+      </div>
+      <div class="step--two">
+        <p class="step f1">NOW CLICK THE BUTTON:</p>
+        <button class="get-jokes">
+          GENERAATEE!
+        </button>
+      </div>
+    </form>
+
+    <ul class="jokes"></ul>
+  </main>
+
+  <footer class="footer">
+    <div class="footerWrapper">
+     <p>
+       "Just for fun" - <a href="">@mrraduan</a>
+     </p>
+     <p>
+      API provided by <a href="http://www.icndb.com/api/">icndb</a>
+     </p>
+    </div>
+  </footer>
+
+ <script src="app.js"></script> 
+</body>
+</html>
