@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const number = document.querySelector('#number').value;
     const xhr = new XMLHttpRequest();
 
-    xhr.open('GET',`http://api.icndb.com/jokes/random/${number}`, true);
+    xhr.open('GET',`https://api.icndb.com/jokes/random/${number}`, true);
 
     xhr.onload = function() {
       if(xhr.status === 200) {
