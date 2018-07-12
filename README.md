@@ -4,6 +4,8 @@
   <img alt="THIS IS CHUCK NORRIS JOKE GENERATOR!" width="800" height="434" src="https://mrraduan.github.io/chuck-norris-joke-generator/images/img-readme.png">
 </p>
 
+Link to access: [Chuk Norris Joke Generator](https://mrraduan.github.io/chuck-norris-joke-generator/)
+
 How the name of this repo saied. This is a chuck norris joke generator.
 
 Just a little study with ajax request.
