@@ -1,6 +1,10 @@
 # Chuck Norris joke generator
 
-![THIS IS CHUCK NORRIS!](https://mrraduan.github.io/chuck-norris-joke-generator/images/img-readme.png)
+<!-- ![THIS IS CHUCK NORRIS!](https://mrraduan.github.io/chuck-norris-joke-generator/images/img-readme.png) -->
+
+<p align="center">
+  <img alt="THIS IS CHUCK NORRIS JOKE GENERATOR!" width="460" height="300" src="https://mrraduan.github.io/chuck-norris-joke-generator/images/img-readme.png">
+</p>
 
 How the name os this repo saied. This is a chuck norris joke generator.
 In the begining was created just for study case with ajax request.
