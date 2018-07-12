@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
   UIgetJokes.addEventListener('click', getJokes);
 
   function getJokes(e) {
+
+    e.target.style.pointerEvents = 'none';
+
     const number = document.querySelector('#number').value;
     const xhr = new XMLHttpRequest();
 
@@ -27,8 +30,11 @@ document.addEventListener("DOMContentLoaded", function() {
                </li>
             `;
           });
+
+          UIgetJokes.style.pointerEvents = 'auto';
         } else {
           output += `<li>Something went wrong..</li>`
+          UIgetJokes.style.pointerEvents = 'auto';
         }
         document.querySelector('.jokes').innerHTML = output;
         const modal      = document.querySelector('.modalBg');
